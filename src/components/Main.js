@@ -10,7 +10,7 @@ const Main = () => {
                     <img 
                         src="https://res.cloudinary.com/ddorziaef/image/upload/v1691857622/BioBasket/Bakery_Main_poxotj.avif"
                         className={classes.mainImage}
-                        alt="Bakery Main Image"
+                        alt="Bakery Main"
                     ></img>
                     Bakery
                 </Link>
@@ -18,7 +18,7 @@ const Main = () => {
                     <img 
                         src="https://res.cloudinary.com/ddorziaef/image/upload/v1691857785/BioBasket/Dairy_Main_zn1sua.avif"
                         className={classes.mainImage}
-                        alt="Dairy Main Image"
+                        alt="Dairy Main"
                     ></img>
                     Dairy
                 </Link>
@@ -26,7 +26,7 @@ const Main = () => {
                     <img 
                         src="https://res.cloudinary.com/ddorziaef/image/upload/v1691858283/BioBasket/Main/Fruits_dfnvss.avif"
                         className={classes.mainImage}
-                        alt="Fruits Main Image"
+                        alt="Fruits Main"
                     ></img>
                     Fruits
                 </Link>
@@ -34,7 +34,7 @@ const Main = () => {
                     <img 
                         src="https://res.cloudinary.com/ddorziaef/image/upload/v1691859496/BioBasket/Main/Snacks_evfwvm.jpg"
                         className={classes.mainImage}
-                        alt="Snacks Main Image"
+                        alt="Snacks Main"
                     ></img>
                     Snacks
                 </Link>
@@ -42,7 +42,7 @@ const Main = () => {
                     <img 
                         src="https://res.cloudinary.com/ddorziaef/image/upload/v1691858581/BioBasket/Main/Vegetables_dcvpzk.avif"
                         className={classes.mainImage}
-                        alt="Vegetables Main Image"
+                        alt="Vegetables Main"
                     ></img>
                     Vegetables
                 </Link>
