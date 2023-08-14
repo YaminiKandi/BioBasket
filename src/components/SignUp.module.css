@@ -1,0 +1,26 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.signupForm{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 16px 32px;
+}
+
+.signupForm input {
+    padding: 10px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.shopNow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

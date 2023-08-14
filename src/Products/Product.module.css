@@ -1,0 +1,54 @@
+.image {
+    width: 180px;
+    height: 180px;
+}
+
+.heart{
+    width: 20px;
+    height: 20px;
+    color: red;
+}
+.heartButton {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.heartWrapper{
+    width: 240px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-right: 8px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 8px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 16px;
+}
+
+/* Fruits, Vegetables */
+.fruitsWrapper, .vegWrapper {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    scrollbar-width: none; 
+}
+
+.heading {
+    text-align: center;
+}
+
+.wishlistImage {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,12 @@
+.dropdown {
+    background-color: #177a3f;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 6px 32px;
+    font-size: 16px;
+}
+
+.link {
+    color: white;
+}

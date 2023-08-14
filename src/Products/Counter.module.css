@@ -1,0 +1,19 @@
+.counterMain {
+    width: 180px;
+    border-radius: 4px;
+    background-color: #e5e5b5;
+    padding: 4px 16px;
+}
+
+.counterDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px;
+}
+
+.header {
+    font-size: xx-large;
+    font-weight: bold;
+}
