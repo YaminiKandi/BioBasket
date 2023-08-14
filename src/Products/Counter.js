@@ -30,7 +30,10 @@ const Counter = ({ initialValue, onChange }) => {
                     className="btn4" 
                     onClick={handleDecrement}
                 >-</button>
-                <img src='https://res.cloudinary.com/ddorziaef/image/upload/v1690801995/BioBasket/shopping-cart_hrcr1g.svg'></img>
+                <img 
+                    src='https://res.cloudinary.com/ddorziaef/image/upload/v1690801995/BioBasket/shopping-cart_hrcr1g.svg'
+                    alt='Shopping Cart Icon'
+                ></img>
             </div>
         </div>
     )
