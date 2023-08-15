@@ -8,7 +8,7 @@ const Main = () => {
             <div className={classes.links}>
                 <Link to='/bakery' className={classes.items}>
                     <img 
-                        src="https://res.cloudinary.com/ddorziaef/image/upload/v1691857622/BioBasket/Bakery_Main_poxotj.avif"
+                        src="https://res.cloudinary.com/ddorziaef/image/upload/v1691857622/BioBasket/Main/Bakery_Main_poxotj.avif"
                         className={classes.mainImage}
                         alt="Bakery Main"
                     ></img>
@@ -16,7 +16,7 @@ const Main = () => {
                 </Link>
                 <Link to='/dairy' className={classes.items}>
                     <img 
-                        src="https://res.cloudinary.com/ddorziaef/image/upload/v1691857785/BioBasket/Dairy_Main_zn1sua.avif"
+                        src="https://res.cloudinary.com/ddorziaef/image/upload/v1691857785/BioBasket/Main/Dairy_Main_zn1sua.avif"
                         className={classes.mainImage}
                         alt="Dairy Main"
                     ></img>
