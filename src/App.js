@@ -11,6 +11,9 @@ import Header from './components/Header';
 import Wishlist from './Products/Wishlist';
 import Cart from './Products/Cart';
 import Dropdown from './components/Dropdown';
+import Bakery from './Products/Bakery';
+import Snacks from './Products/Snacks';
+import Dairy from './Products/Dairy';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route path='/login' element={<Login></Login>}></Route>
           <Route path='/fruits' element={<Fruits></Fruits>}></Route>
           <Route path='/vegetables' element={<Vegetables></Vegetables>}></Route>
+          <Route path='/bakery' element={<Bakery></Bakery>}></Route>
+          <Route path='/snacks' element={<Snacks></Snacks>}></Route>
+          <Route path='/dairy' element={<Dairy></Dairy>}></Route>
           <Route path='/wishlist' element={<Wishlist></Wishlist>}></Route>
           <Route path='/cart' element={<Cart></Cart>}></Route>
         </Routes>

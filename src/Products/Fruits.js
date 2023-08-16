@@ -41,7 +41,7 @@ const Fruits = () => {
     ]
     return (
         <div>
-            <div className={classes.fruitsWrapper}>
+            <div className={classes.wrapper}>
                 <h1 className={classes.heading}>Fruits</h1>
                 <Product imageIds={fruits} title={fruitsNames}/>
             </div>

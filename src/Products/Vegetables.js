@@ -46,7 +46,7 @@ const Vegetables = () => {
         'Sweet Potato','Tomato'
     ]
     return(
-        <div className={classes.vegWrapper}>
+        <div className={classes.wrapper}>
             <h1 className={classes.heading}>Vegetables</h1>
             <Product imageIds={vegetables} title={vegetablesNames}/>
         </div>
