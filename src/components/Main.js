@@ -30,6 +30,14 @@ const Main = () => {
                     ></img>
                     Fruits
                 </Link>
+                <Link to='/pickles' className={classes.items}>
+                    <img 
+                        src="https://res.cloudinary.com/ddorziaef/image/upload/v1692200477/BioBasket/Main/Pickles_Main_rcxde3.jpg"
+                        className={classes.mainImage}
+                        alt="Pickles Main"
+                    ></img>
+                    Pickles
+                </Link>
                 <Link to='/snacks' className={classes.items}>
                     <img 
                         src="https://res.cloudinary.com/ddorziaef/image/upload/v1691859496/BioBasket/Main/Snacks_evfwvm.jpg"

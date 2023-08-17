@@ -7,7 +7,7 @@ const Snacks = () => {
 
     ]
     const snacksNames = [
-
+        'Jaggery Shells or Gavvalu'
     ]
     return(
         <div className={classes.wrapper}>

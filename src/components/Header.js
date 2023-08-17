@@ -6,7 +6,7 @@ import logo from '../assets/Logo.png'
 import { Link } from "react-router-dom";
 
 const Header = () => {
-    const [showLogin, setShowLogin] = useState()
+    const [showLogin, setShowLogin] = useState(false)
     const handleShowLogin = () => {
         setShowLogin(!showLogin)
     }

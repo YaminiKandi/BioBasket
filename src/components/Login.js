@@ -47,7 +47,6 @@ const Login = ({onClose}) => {
         setEmailError('')
         try{
             await logIn(email, password)
-
         } catch (err) {
             setEmailError(err.message)
         }
