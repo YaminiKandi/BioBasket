@@ -12,12 +12,11 @@
 .links {
     display: grid; 
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-gap: 8px;   
+    grid-gap: 8px;
 }
 
 .mainImage {
-    margin-top: 32px;
-    margin-left: 32px;
+    margin: 32px;
     width: 200px;
     height: 180px;
     border-radius: 12px;

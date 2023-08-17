@@ -22,6 +22,14 @@ const Main = () => {
                     ></img>
                     Dairy
                 </Link>
+                <Link to='/dryfruitsnnuts' className={classes.items}>
+                    <img 
+                        src="https://res.cloudinary.com/ddorziaef/image/upload/v1692281868/BioBasket/Main/Dryfruits_Main_bj3oxt.jpg"
+                        className={classes.mainImage}
+                        alt="DryFruits & Nuts Main"
+                    ></img>
+                    DryFruits & Nuts
+                </Link>
                 <Link to='/fruits' className={classes.items}>
                     <img 
                         src="https://res.cloudinary.com/ddorziaef/image/upload/v1691858283/BioBasket/Main/Fruits_dfnvss.avif"
@@ -29,6 +37,14 @@ const Main = () => {
                         alt="Fruits Main"
                     ></img>
                     Fruits
+                </Link>
+                <Link to='/ricencereals' className={classes.items}>
+                    <img 
+                        src="https://res.cloudinary.com/ddorziaef/image/upload/v1692281868/BioBasket/Main/Rice_Main_xjakyt.jpg"
+                        className={classes.mainImage}
+                        alt="Rice n Cereals Main"
+                    ></img>
+                    Rice & Cereals
                 </Link>
                 <Link to='/pickles' className={classes.items}>
                     <img 

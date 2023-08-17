@@ -15,6 +15,8 @@ import Bakery from './Products/Bakery';
 import Snacks from './Products/Snacks';
 import Dairy from './Products/Dairy';
 import Pickles from './Products/Pickles';
+import DryFruits from './Products/DryFruits';
+import RiceCereals from './Products/Rice&Cereals';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
           <Route path='/dairy' element={<Dairy></Dairy>}></Route>
           <Route path='/pickles' element={<Pickles></Pickles>}></Route>
           <Route path='/wishlist' element={<Wishlist></Wishlist>}></Route>
+          <Route path='/dryfruitsnnuts' element={<DryFruits></DryFruits>}></Route>
+          <Route path='/ricencereals' element={<RiceCereals></RiceCereals>}></Route>
           <Route path='/cart' element={<Cart></Cart>}></Route>
         </Routes>
       </UserAuthContextProvider>
