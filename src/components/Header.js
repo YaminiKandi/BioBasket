@@ -18,7 +18,7 @@ const Header = () => {
                     <h3>BioBasket</h3>
                 </Link>
                 <div className={classes.right}>
-                    <Link to='/wishlist' className="btn2"> Wishlist </Link>
+                    <Link to='/' className="btn2"> Wishlist </Link>
                     <Link to='/cart' className="btn2"> Cart </Link>
                     <button className="btn5" onClick={handleShowLogin}>Login</button>
                 </div>
